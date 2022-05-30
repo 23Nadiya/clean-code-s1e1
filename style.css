@@ -57,7 +57,7 @@ button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -67,12 +67,12 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-h3,
+.title,
 .label-task {
   color: #333;
   font-weight: 700;
@@ -111,7 +111,7 @@ h3,
 }
 
 /* Task list */
-li {
+.element {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -121,7 +121,7 @@ li {
   align-items: center;
 }
 
-li > * {
+.element > * {
   vertical-align: middle;
 }
 
@@ -129,14 +129,14 @@ li > * {
   margin: 0 10px;
 }
 
-li > label {
+label.task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li > .inp-text {
+.inp-text {
   width: 226px;
 }
 
@@ -157,7 +157,7 @@ li > .inp-text {
 }
 
 /* Edit Task */
-li input[type='text'] {
+.element input[type='text'] {
   display: none;
 }
 
